@@ -1,7 +1,7 @@
 /*
 	Name:Sabin kumar chaudhary
 	Roll no:ACE078BEI039
-	Faculty:Ekectronic,Communication and Information Engineering[BEI]
+	Faculty:Electronic,Communication and Information Engineering[BEI]
 	Date:2079-05-09
 	Description: DATA FILE.....  
 */
@@ -25,7 +25,8 @@ int main()
 	{
 		ch= getchar();
 		fputc(ch,fptr);
-	}while(ch!='\n');//where '\n' denote the enter key here...
+	}
+	while(ch!='\n');//where '\n' denote the enter key here...
 	printf("\n");
 	fclose(fptr);
 	fptr=fopen("filec.txt","r");
