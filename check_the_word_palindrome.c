@@ -39,12 +39,13 @@ int main()
 
     if(startIndex >= endIndex)
     {
-        printf("String is Palindrome.");
+        printf("Word is Palindrome.");
     }
     else
     {
-        printf("String is Not Palindrome.");
+        printf("Word is Not Palindrome.");
     }
 
     return 0;
+    getch();
 }
